@@ -1,0 +1,1081 @@
+{
+	"e" : [
+		{
+			"menu" : "Database",
+			"options" : [
+				{
+					"type" : "form",
+					"id" : "databaseCopy",
+					"x" : "150",
+					"y" : "200",
+					"name" : "Copy a Database",
+					"menu" : "Copy",
+					"icon" : "Copy DB",
+					"statusMsg" : " ",
+					"field" : [
+						{
+							"id" : "src_instance",
+							"name" : "Source Instance",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "instanceList"
+						},
+						{
+							"id" : "src_partition",
+							"name" : "Source Partition",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "partitionList"
+						},
+						{
+							"id" : "src_database",
+							"name" : "Source Database",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "databaseList"
+						},
+						{
+							"id" : "tgt_instance",
+							"name" : "Target Instance",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "instanceList"
+						},
+						{
+							"id" : "tgt_partition",
+							"name" : "Target Partition",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "partitionList"
+						},
+						{
+							"id" : "tgt_database",
+							"name" : "New Database",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "text",
+							"chars" : "30",
+							"validation" : "alpha-numeric"
+						}
+					]
+				},
+				{
+					"type" : "form",
+					"id" : "databaseCreate",
+					"x" : "150",
+					"y" : "200",
+					"name" : "Create a New Database",
+					"menu" : "Create",
+					"icon" : "New DB",
+					"statusMsg" : "Hello there!",
+					"postProcess" : "databaseCreate",
+					"field" : [
+						{
+							"id" : "partition",
+							"name" : "Partition",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "partitionList"
+						},
+						{
+							"id" : "database",
+							"name" : "Database",
+							"viewWidth" : "100",
+							"scrollWidth" : "150",
+							"default" : "database",
+							"type" : "text",
+							"chars" : "30",
+							"validation" : "alpha-numeric"
+						},
+						{
+							"id" : "schema",
+							"name" : "Schema",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : "schema",
+							"type" : "text",
+							"chars" : "10",
+							"validation" : "alpha-mixed"
+						}
+					]
+				},
+				{
+					"type" : "form",
+					"id" : "databaseDrop",
+					"x" : "350",
+					"y" : "250",
+					"name" : "Drop a Database",
+					"menu" : "Drop",
+					"icon" : "Drop DB",
+					"statusMsg" : " ",
+					"postProcess" : "databaseDrop",
+					"field" : [
+						{
+							"id" : "instance",
+							"name" : "Instance",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "instanceList"
+						},
+						{
+							"id" : "partition",
+							"name" : "Partition",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "partitionList"
+						},
+						{
+							"id" : "database",
+							"name" : "Database",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "databaseList"
+						}
+					]
+				},
+				{
+					"type" : "form",
+					"id" : "databaseLoad",
+					"x" : "150",
+					"y" : "200",
+					"name" : "Load a Database",
+					"menu" : "Load",
+					"icon" : "Load DB",
+					"statusMsg" : " ",
+					"field" : [
+						{
+							"id" : "instance",
+							"name" : "Instance",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "instanceList"
+						},
+						{
+							"id" : "partition",
+							"name" : "Partition",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "partitionList"
+						},
+						{
+							"id" : "database",
+							"name" : "Database",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "databaseList"
+						},
+						{
+							"id" : "src_file",
+							"name" : "Source File",
+							"viewWidth" : "400",
+							"scrollWidth" : "400",
+							"default" : " ",
+							"type" : "text",
+							"chars" : "100",
+							"validation" : "alpha-numeric"
+						}
+					]
+				},
+				{
+					"type" : "form",
+					"id" : "databaseMove",
+					"x" : "150",
+					"y" : "200",
+					"name" : "Move a Database",
+					"menu" : "Move",
+					"icon" : "Move DB",
+					"statusMsg" : " ",
+					"field" : [
+						{
+							"id" : "src_instance",
+							"name" : "Source Instance",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "instanceList"
+						},
+						{
+							"id" : "src_partition",
+							"name" : "Source Partition",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "partitionList"
+						},
+						{
+							"id" : "src_database",
+							"name" : "Source Database",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "databaseList"
+						},
+						{
+							"id" : "tgt_instance",
+							"name" : "Target Instance",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "instanceList"
+						},
+						{
+							"id" : "tgt_partition",
+							"name" : "Target Partition",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "partitionList"
+						}
+					]
+				},
+				{
+					"type" : "form",
+					"id" : "databaseRename",
+					"x" : "150",
+					"y" : "200",
+					"name" : "Rename a Database",
+					"menu" : "Rename",
+					"icon" : "Name DB",
+					"statusMsg" : " ",
+					"field" : [
+						{
+							"id" : "instance",
+							"name" : "Instance",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "instanceList"
+						},
+						{
+							"id" : "partition",
+							"name" : "Partition",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "partitionList"
+						},
+						{
+							"id" : "database",
+							"name" : "Database",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "databaseList"
+						},
+						{
+							"id" : "new_database",
+							"name" : "New Name",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "text",
+							"chars" : "30",
+							"validation" : "alpha-numeric"
+						}
+					]
+				},
+				{
+					"type" : "form",
+					"id" : "databaseStatus",
+					"x" : "150",
+					"y" : "200",
+					"name" : "Change Database Status",
+					"menu" : "On/Offline",
+					"icon" : "Stat DB",
+					"statusMsg" : " ",
+					"field" : [
+						{
+							"id" : "instance",
+							"name" : "Instance",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "instanceList"
+						},
+						{
+							"id" : "partition",
+							"name" : "Partition",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "partitionList"
+						},
+						{
+							"id" : "database",
+							"name" : "Database",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "databaseList"
+						}
+					]
+				}
+			]
+		},
+		{
+			"menu" : "Instance",
+			"options" : [
+				{
+					"type" : "form",
+					"id" : "instanceCopy",
+					"x" : "150",
+					"y" : "200",
+					"name" : "Copy an Instance",
+					"menu" : "Copy",
+					"icon" : "Copy Inst",
+					"statusMsg" : " ",
+					"field" : [
+						{
+							"id" : "src_instance",
+							"name" : "Source Instance",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "instanceList"
+						},
+						{
+							"id" : "new_instance",
+							"name" : "New Instance",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "text",
+							"chars" : "30",
+							"validation" : "alpha-numeric"
+						},
+						{
+							"id" : "root_dir",
+							"name" : "Root Directory",
+							"viewWidth" : "400",
+							"scrollWidth" : "400",
+							"default" : " ",
+							"type" : "text",
+							"chars" : "100",
+							"validation" : "alpha-numeric"
+						}
+					]
+				},
+				{
+					"type" : "form",
+					"id" : "instanceCreate",
+					"x" : "150",
+					"y" : "200",
+					"name" : "Create a New Instance",
+					"menu" : "Create",
+					"icon" : "New Inst",
+					"statusMsg" : " ",
+					"field" : [
+						{
+							"id" : "new_instance",
+							"name" : "New Instance",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "text",
+							"chars" : "30",
+							"validation" : "alpha-numeric"
+						},
+						{
+							"id" : "root_dir",
+							"name" : "Root Directory",
+							"viewWidth" : "400",
+							"scrollWidth" : "400",
+							"default" : " ",
+							"type" : "text",
+							"chars" : "100",
+							"validation" : "alpha-numeric"
+						}
+					]
+				},
+				{
+					"type" : "form",
+					"id" : "instanceDrop",
+					"x" : "150",
+					"y" : "200",
+					"name" : "Drop an Instance",
+					"menu" : "Drop",
+					"icon" : "Drop Inst",
+					"statusMsg" : " ",
+					"field" : [
+						{
+							"id" : "instance",
+							"name" : "Instance",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "instanceList"
+						}
+					]
+				},
+				{
+					"type" : "form",
+					"id" : "instanceMove",
+					"x" : "150",
+					"y" : "200",
+					"name" : "Move an Instance",
+					"menu" : "Move",
+					"icon" : "Move Inst",
+					"statusMsg" : " ",
+					"field" : [
+						{
+							"id" : "src_instance",
+							"name" : "Source Instance",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "instanceList"
+						},
+						{
+							"id" : "tgt_dir",
+							"name" : "Target Directory",
+							"viewWidth" : "400",
+							"scrollWidth" : "400",
+							"default" : " ",
+							"type" : "text",
+							"chars" : "100",
+							"validation" : "alpha-numeric"
+						}
+					]
+				},
+				{
+					"type" : "form",
+					"id" : "instanceRename",
+					"x" : "150",
+					"y" : "200",
+					"name" : "Rename an Instance",
+					"menu" : "Rename",
+					"icon" : "Name Inst",
+					"statusMsg" : " ",
+					"field" : [
+						{
+							"id" : "instance",
+							"name" : "Current Name",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "instanceList"
+						},
+						{
+							"id" : "new_instance",
+							"name" : "New Name",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "text",
+							"chars" : "30",
+							"validation" : "alpha-numeric"
+						}
+					]
+				},
+				{
+					"type" : "form",
+					"id" : "instanceStatus",
+					"x" : "150",
+					"y" : "200",
+					"name" : "Change Instance Status",
+					"menu" : "On/Offline",
+					"icon" : "Stat Inst",
+					"statusMsg" : " ",
+					"field" : [
+						{
+							"id" : "instance",
+							"name" : "Instance",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "instanceList"
+						}
+					]
+				}
+			]
+		},
+		{
+			"menu" : "Partition",
+			"options" : [
+				{
+					"type" : "form",
+					"id" : "partitionCopy",
+					"x" : "150",
+					"y" : "200",
+					"name" : "Copy a Partition",
+					"menu" : "Copy",
+					"icon" : "Copy Part",
+					"statusMsg" : " ",
+					"field" : [
+						{
+							"id" : "src_partition",
+							"name" : "Source Partition",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "partitionList"
+						},
+						{
+							"id" : "new_partition",
+							"name" : "New Partition",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "text",
+							"chars" : "30",
+							"validation" : "alpha-numeric"
+						},
+						{
+							"id" : "src_instance",
+							"name" : "Source Instance",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "instanceList"
+						},
+						{
+							"id" : "tgt_instance",
+							"name" : "Target Instance",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "instanceList"
+						}
+					]
+				},
+				{
+					"type" : "form",
+					"id" : "partitionCreate",
+					"x" : "150",
+					"y" : "200",
+					"name" : "Create a New Partition",
+					"menu" : "Create",
+					"icon" : "New Part",
+					"statusMsg" : " ",
+					"field" : [
+						{
+							"id" : "tgt_instance",
+							"name" : "Target Instance",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "instanceList"
+						},
+						{
+							"id" : "partition",
+							"name" : "Partition Name",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "text",
+							"chars" : "30",
+							"validation" : "alpha-numeric"
+						}
+					]
+				},
+				{
+					"type" : "form",
+					"id" : "partitionDrop",
+					"x" : "150",
+					"y" : "200",
+					"name" : "Drop a Partition",
+					"menu" : "Drop",
+					"icon" : "Drop Part",
+					"statusMsg" : " ",
+					"field" : [
+						{
+							"id" : "instance",
+							"name" : "Instance",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "instanceList"
+						},
+						{
+							"id" : "partition",
+							"name" : "Partition",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "partitionList"
+						}
+					]
+				},
+				{
+					"type" : "form",
+					"id" : "partitionMove",
+					"x" : "150",
+					"y" : "200",
+					"name" : "Move a Partition",
+					"menu" : "Move",
+					"icon" : "Move Part",
+					"statusMsg" : " ",
+					"field" : [
+						{
+							"id" : "partition",
+							"name" : "Partition Name",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "partitionList"
+						},
+						{
+							"id" : "src_instance",
+							"name" : "Source Instance",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "instanceList"
+						},
+						{
+							"id" : "tgt_instance",
+							"name" : "Target Instance",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "instanceList"
+						}
+					]
+				},
+				{
+					"type" : "form",
+					"id" : "partitionRename",
+					"x" : "150",
+					"y" : "200",
+					"name" : "Rename a Partition",
+					"menu" : "Rename",
+					"icon" : "Name Part",
+					"statusMsg" : " ",
+					"field" : [
+						{
+							"id" : "instance",
+							"name" : "Instance",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "instanceList"
+						},
+						{
+							"id" : "current_name",
+							"name" : "Current Name",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "partitionList"
+						},
+						{
+							"id" : "new_name",
+							"name" : "New Name",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "text",
+							"chars" : "30",
+							"validation" : "alpha-numeric"
+						}
+					]
+				},
+				{
+					"type" : "form",
+					"id" : "partitionStatus",
+					"x" : "150",
+					"y" : "200",
+					"name" : "Change Partition Status",
+					"menu" : "On/Offline",
+					"icon" : "Stat Part",
+					"statusMsg" : " ",
+					"field" : [
+						{
+							"id" : "instance",
+							"name" : "Instance",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "instanceList"
+						},
+						{
+							"id" : "partition",
+							"name" : "Partition",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "partitionList"
+						}
+					]
+				}
+			]
+		},
+		{
+			"menu" : "Schema",
+			"options" : [
+				{
+					"type" : "form",
+					"id" : "schemaDrop",
+					"x" : "150",
+					"y" : "200",
+					"name" : "Drop Schema from Instance",
+					"menu" : "Drop",
+					"icon" : "Drop Schm",
+					"statusMsg" : " ",
+					"field" : [
+						{
+							"id" : "instance",
+							"name" : "Instance",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "instanceList"
+						},
+						{
+							"id" : "schema",
+							"name" : "Schema",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "schemaList"
+						}
+					]
+				},
+				{
+					"type" : "form",
+					"id" : "schemaLink",
+					"x" : "150",
+					"y" : "200",
+					"name" : "Link Schema to Database",
+					"menu" : "Link",
+					"icon" : "Link Schm",
+					"statusMsg" : " ",
+					"field" : [
+						{
+							"id" : "instance",
+							"name" : "Instance",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "instanceList"
+						},
+						{
+							"id" : "partition",
+							"name" : "Partition",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "partitionList"
+						},
+						{
+							"id" : "database",
+							"name" : "Database",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "databaseList"
+						},
+						{
+							"id" : "schema",
+							"name" : "Schema",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "schemaList"
+						}
+					]
+				},
+				{
+					"type" : "form",
+					"id" : "schemaLoad",
+					"x" : "150",
+					"y" : "200",
+					"name" : "Load Schema into an Instance",
+					"menu" : "Load",
+					"icon" : "Load Schm",
+					"statusMsg" : " ",
+					"field" : [
+						{
+							"id" : "instance",
+							"name" : "Instance",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "instanceList"
+						},
+						{
+							"id" : "schema",
+							"name" : "Schema",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "schemaList"
+						},
+						{
+							"id" : "location",
+							"name" : "Location",
+							"viewWidth" : "400",
+							"scrollWidth" : "400",
+							"default" : " ",
+							"type" : "text",
+							"chars" : "100",
+							"validation" : "alpha-numeric"
+						}
+					]
+				},
+				{
+					"type" : "form",
+					"id" : "schemaTest",
+					"x" : "150",
+					"y" : "200",
+					"name" : "Test Schema Against All DBs in an Instance",
+					"menu" : "Test",
+					"icon" : "Test Schm",
+					"statusMsg" : " ",
+					"field" : [
+						{
+							"id" : "instance",
+							"name" : "Instance",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "instanceList"
+						},
+						{
+							"id" : "schema",
+							"name" : "Schema",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "schemaList"
+						}
+					]
+				},
+				{
+					"type" : "form",
+					"id" : "schemaUnlink",
+					"x" : "150",
+					"y" : "200",
+					"name" : "Unlink Schema from Database",
+					"menu" : "Unlink",
+					"icon" : "Unlink Schm",
+					"statusMsg" : " ",
+					"field" : [
+						{
+							"id" : "instance",
+							"name" : "Instance",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "instanceList"
+						},
+						{
+							"id" : "partition",
+							"name" : "Partition",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "partitionList"
+						},
+						{
+							"id" : "database",
+							"name" : "Database",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "databaseList"
+						},
+						{
+							"id" : "schema",
+							"name" : "Schema",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "list",
+							"listId" : "schemaList"
+						}
+					]
+				}
+			]
+		},
+		{
+			"menu" : "Server",
+			"options" : [
+				{
+					"type" : "grid",
+					"id" : "serverStatus",
+					"x" : "100",
+					"y" : "200",
+					"rows" : "12",
+					"name" : "Status of XDB Databases",
+					"menu" : "Status",
+					"icon" : "Status",
+					"statusMsg" : " ",
+					"field" : [
+						{
+							"id" : "instance",
+							"name" : "Instance",
+							"viewWidth" : "100",
+							"scrollWidth" : "100",
+							"default" : " ",
+							"type" : "text"
+						},
+						{
+							"id" : "i_status",
+							"name" : "Status",
+							"viewWidth" : "60",
+							"scrollWidth" : "60",
+							"default" : " ",
+							"type" : "text"
+						},
+						{
+							"id" : "i_location",
+							"name" : "Location",
+							"viewWidth" : "160",
+							"scrollWidth" : "200",
+							"default" : " ",
+							"type" : "text"
+						},
+						{
+							"id" : "i_schema",
+							"name" : "Schemas",
+							"viewWidth" : "200",
+							"scrollWidth" : "200",
+							"default" : " ",
+							"type" : "text"
+						},
+						{
+							"id" : "partition",
+							"name" : "Partition",
+							"viewWidth" : "100",
+							"scrollWidth" : "100",
+							"default" : " ",
+							"type" : "text"
+						},
+						{
+							"id" : "p_status",
+							"name" : "Status",
+							"viewWidth" : "60",
+							"scrollWidth" : "60",
+							"default" : " ",
+							"type" : "text"
+						},
+						{
+							"id" : "database",
+							"name" : "Database",
+							"viewWidth" : "100",
+							"scrollWidth" : "100",
+							"default" : " ",
+							"type" : "text"
+						},
+						{
+							"id" : "d_status",
+							"name" : "Status",
+							"viewWidth" : "60",
+							"scrollWidth" : "60",
+							"default" : " ",
+							"type" : "text"
+						},
+						{
+							"id" : "d_schema",
+							"name" : "Schema",
+							"viewWidth" : "100",
+							"scrollWidth" : "100",
+							"default" : " ",
+							"type" : "text"
+						},
+						{
+							"id" : "d_file",
+							"name" : "File",
+							"viewWidth" : "120",
+							"scrollWidth" : "120",
+							"default" : " ",
+							"type" : "text"
+						},
+						{
+							"id" : "d_active",
+							"name" : "Active",
+							"viewWidth" : "60",
+							"scrollWidth" : "60",
+							"default" : " ",
+							"type" : "text"
+						},
+						{
+							"id" : "d_blocks",
+							"name" : "Blocks",
+							"viewWidth" : "60",
+							"scrollWidth" : "60",
+							"default" : " ",
+							"type" : "text"
+						},
+						{
+							"id" : "d_bytes",
+							"name" : "Bytes",
+							"viewWidth" : "100",
+							"scrollWidth" : "100",
+							"default" : " ",
+							"type" : "text"
+						}
+					]
+				}
+			]
+		}
+	]
+}

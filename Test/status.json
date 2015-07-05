@@ -1,0 +1,244 @@
+{
+"instance" : [
+	{
+		"iid" : "i1name",
+		"istate" : "i1state",
+		"ilocation" : "i1location",
+		"ischema" : "i1schema",
+		"partition" : [
+			{
+				"pid" : "p1name",
+				"pstate" : "p1state",
+				"database" : [
+					{
+						"id" : "d1name",
+						"state" : "online",
+						"schema" : "hotels.xsd",
+						"file" : "/srv/xdb/001.xml",
+						"active" : "true",
+						"blocks" : "2,421",
+						"bytes" : "812,234"
+					},
+					{
+						"id" : "d2name",
+						"state" : "online",
+						"schema" : "rooms.xsd",
+						"file" : "/srv/xdb/002.xml",
+						"active" : "true",
+						"blocks" : "5,432",
+						"bytes" : "1,234,567"
+					}
+				]
+			},
+			{
+				"pid" : "p2name",
+				"pstate" : "p2state",
+				"database" : [
+					{
+						"id" : "d3name",
+						"state" : "offline",
+						"schema" : "equipment.xsd",
+						"file" : "/srv/xdb/003.xml",
+						"active" : "true",
+						"blocks" : "17,987",
+						"bytes" : "8,754,321"
+					}
+				]
+			}
+		]
+	},
+	{
+		"iid" : "i2name",
+		"istate" : "i2state",
+		"ilocation" : "i2location",
+		"ischema" : "i2schema",
+		"partition" : [
+			{
+				"pid" : "p3name",
+				"pstate" : "p3state",
+				"database" : [
+					{
+						"id" : "d4name",
+						"state" : "offline",
+						"schema" : "user.xsd",
+						"file" : "/srv/xdb/004.xml",
+						"active" : "true",
+						"blocks" : "2,421",
+						"bytes" : "812,234"
+					},
+					{
+						"id" : "d5name",
+						"state" : "offline",
+						"schema" : "groups.xsd",
+						"file" : "/srv/xdb/005.xml",
+						"active" : "true",
+						"blocks" : "5,432",
+						"bytes" : "1,234,567"
+					}
+				]
+			}
+		]
+	},
+	{
+		"iid" : "i3name",
+		"istate" : "i3state",
+		"ilocation" : "i3location",
+		"ischema" : "i3schema",
+		"partition" : [
+			{
+				"pid" : "p4name",
+				"pstate" : "p4state",
+				"database" : [
+					{
+						"id" : "d6name",
+						"state" : "offline",
+						"schema" : "user.xsd",
+						"file" : "/srv/xdb/006.xml",
+						"active" : "true",
+						"blocks" : "2,421",
+						"bytes" : "812,234"
+					},
+					{
+						"id" : "d7name",
+						"state" : "offline",
+						"schema" : "groups.xsd",
+						"file" : "/srv/xdb/007.xml",
+						"active" : "true",
+						"blocks" : "5,432",
+						"bytes" : "1,234,567"
+					},
+					{
+						"id" : "d8name",
+						"state" : "offline",
+						"schema" : "groups.xsd",
+						"file" : "/srv/xdb/008.xml",
+						"active" : "true",
+						"blocks" : "5,432",
+						"bytes" : "1,234,567"
+					},
+					{
+						"id" : "d9name",
+						"state" : "offline",
+						"schema" : "groups.xsd",
+						"file" : "/srv/xdb/009.xml",
+						"active" : "true",
+						"blocks" : "5,432",
+						"bytes" : "1,234,567"
+					},
+					{
+						"id" : "d10name",
+						"state" : "offline",
+						"schema" : "groups.xsd",
+						"file" : "/srv/xdb/010.xml",
+						"active" : "true",
+						"blocks" : "5,432",
+						"bytes" : "1,234,567"
+					}
+				]
+			},
+			{
+				"pid" : "p5name",
+				"pstate" : "p5state",
+				"database" : [
+					{
+						"id" : "d11name",
+						"state" : "offline",
+						"schema" : "user.xsd",
+						"file" : "/srv/xdb/011.xml",
+						"active" : "true",
+						"blocks" : "2,421",
+						"bytes" : "812,234"
+					},
+					{
+						"id" : "d12name",
+						"state" : "offline",
+						"schema" : "groups.xsd",
+						"file" : "/srv/xdb/012.xml",
+						"active" : "true",
+						"blocks" : "5,432",
+						"bytes" : "1,234,567"
+					}
+				]
+			},
+			{
+				"pid" : "p6name",
+				"pstate" : "p6state",
+				"database" : [
+					{
+						"id" : "d13name",
+						"state" : "offline",
+						"schema" : "user.xsd",
+						"file" : "/srv/xdb/013.xml",
+						"active" : "true",
+						"blocks" : "2,421",
+						"bytes" : "812,234"
+					},
+					{
+						"id" : "d14name",
+						"state" : "offline",
+						"schema" : "groups.xsd",
+						"file" : "/srv/xdb/014.xml",
+						"active" : "true",
+						"blocks" : "5,432",
+						"bytes" : "1,234,567"
+					},
+					{
+						"id" : "d15name",
+						"state" : "offline",
+						"schema" : "groups.xsd",
+						"file" : "/srv/xdb/015.xml",
+						"active" : "true",
+						"blocks" : "5,432",
+						"bytes" : "1,234,567"
+					},
+					{
+						"id" : "d16name",
+						"state" : "offline",
+						"schema" : "groups.xsd",
+						"file" : "/srv/xdb/016.xml",
+						"active" : "true",
+						"blocks" : "5,432",
+						"bytes" : "1,234,567"
+					},
+					{
+						"id" : "d17name",
+						"state" : "offline",
+						"schema" : "groups.xsd",
+						"file" : "/srv/xdb/017.xml",
+						"active" : "true",
+						"blocks" : "5,432",
+						"bytes" : "1,234,567"
+					},
+					{
+						"id" : "d18name",
+						"state" : "offline",
+						"schema" : "groups.xsd",
+						"file" : "/srv/xdb/018.xml",
+						"active" : "true",
+						"blocks" : "5,432",
+						"bytes" : "1,234,567"
+					},
+					{
+						"id" : "d19name",
+						"state" : "offline",
+						"schema" : "groups.xsd",
+						"file" : "/srv/xdb/019.xml",
+						"active" : "true",
+						"blocks" : "5,432",
+						"bytes" : "1,234,567"
+					},
+					{
+						"id" : "d20name",
+						"state" : "offline",
+						"schema" : "groups.xsd",
+						"file" : "/srv/xdb/020.xml",
+						"active" : "true",
+						"blocks" : "5,432",
+						"bytes" : "1,234,567"
+					}
+				]
+			}
+		]
+	}
+]
+}

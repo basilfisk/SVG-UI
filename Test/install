@@ -1,0 +1,56 @@
+#!/bin/bash
+# *********************************************************************************************
+# *********************************************************************************************
+# 
+# Install the Administration client
+#
+# *********************************************************************************************
+# *********************************************************************************************
+
+# Stop if not run by 'root'
+#if [ `whoami` != "root" ]; then
+	#	echo "===> This script must be run by root"
+	#	exit
+#fi
+
+# Root of source directory
+SOURCE=~/Dropbox/Git/VS-UI/Test
+TARGET=/var/www/admin
+DATA=/var/www/admin/data
+
+# Owner and group
+OWNER=bf
+GROUP=bf
+
+
+
+# UI directory
+if [ ! -d $TARGET ]; then
+	echo "Creating directory for Admin files [$TARGET]"
+	mkdir -p $TARGET
+	chown $OWNER:$GROUP $TARGET
+	chmod 755 $TARGET
+fi
+
+# JavaScript files
+echo "Installing JavaScript files in [$TARGET]"
+rm $TARGET/*.js 2>/dev/null
+cp $SOURCE/admin.js $TARGET
+chown $OWNER:$GROUP $TARGET/*.js
+chmod 644 $TARGET/*.js
+
+# SVG files
+echo "Installing SVG files in [$TARGET]"
+rm $TARGET/*.svg 2>/dev/null
+cp $SOURCE/admin.svg $TARGET
+chown $OWNER:$GROUP $TARGET/*.svg
+chmod 644 $TARGET/*.svg
+
+# Data files
+echo "Installing data files in [$DATA]"
+cp $SOURCE/status.json $DATA
+cp $SOURCE/structure.json $DATA
+cp $SOURCE/styles.json $DATA
+chown $OWNER:$GROUP $DATA/*.json
+chmod 644 $DATA/*.json
+

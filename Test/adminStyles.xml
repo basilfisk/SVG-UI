@@ -1,0 +1,183 @@
+<styles>
+	<frame>
+		<fmBackRectX>0</fmBackRectX>
+		<fmBackRectY>0</fmBackRectY>
+		<fmBackRectWidth>0</fmBackRectWidth>
+		<fmBackRectHeight>0</fmBackRectHeight>
+		<fmBackRectStyle>fill:rgb(173,216,230) stroke:black stroke-width:1</fmBackRectStyle>
+		<fmStatusRectX>910</fmStatusRectX>
+		<fmStatusRectY>10</fmStatusRectY>
+		<fmStatusRectWidth>100</fmStatusRectWidth>
+		<fmStatusRectHeight>30</fmStatusRectHeight>
+		<fmStatusRectStyle>fill:none stroke:none stroke-width:1</fmStatusRectStyle>
+		<fmStatusTextX>915</fmStatusTextX>
+		<fmStatusTextY>30</fmStatusTextY>
+		<fmStatusTextStyle>font-family:Arial,Helvetica font-size:12px font-weight:normal fill:none</fmStatusTextStyle>
+	</frame>
+	<container>
+		<background>
+			<cnBackground>fill:rgb(176,196,222) stroke:rgb(127,127,127) stroke-width:1</cnBackground>
+			<cnCorner>3</cnCorner>
+		</background>
+		<titleBar>
+			<cnTitleBar>fill:rgb(255,192,203) stroke:rgb(127,127,127) stroke-width:1</cnTitleBar>
+			<cnTitleText>font-family:Arial,Helvetica font-size:12px font-weight:bold fill:rgb(84,84,84)</cnTitleText>
+			<cnTitleBarHeight>22</cnTitleBarHeight>
+			<cnTitleBarLeftMargin>5</cnTitleBarLeftMargin>
+			<cnTitleBarRightMargin>14</cnTitleBarRightMargin>
+			<cnTitleBarBottomMargin>6</cnTitleBarBottomMargin>
+			<cnTitleBarButtonWidth>12</cnTitleBarButtonWidth>
+			<cnTitleBarButtonSpacing>18</cnTitleBarButtonSpacing>
+		</titleBar>
+		<statusBar>
+			<cnStatusBar>fill:rgb(240,248,255) stroke:rgb(127,127,127) stroke-width:1</cnStatusBar>
+			<cnStatusText>font-family:Arial,Helvetica font-size:12px fill:rgb(84,84,84)</cnStatusText>
+			<cnStatusBarHeight>22</cnStatusBarHeight>
+			<cnStatusBarLeftMargin>5</cnStatusBarLeftMargin>
+			<cnStatusBarBottomMargin>6</cnStatusBarBottomMargin>
+		</statusBar>
+		<closeSymbol>
+			<syCloseRectX>-6</syCloseRectX>
+			<syCloseRectY>-6</syCloseRectY>
+			<syCloseRectWidth>12</syCloseRectWidth>
+			<syCloseRectHeight>12</syCloseRectHeight>
+			<syCloseRectStyle>fill:none stroke:rgb(127,127,127) stroke-width:1</syCloseRectStyle>
+			<syCloseFwdLineX1>-4</syCloseFwdLineX1>
+			<syCloseFwdLineX2>4</syCloseFwdLineX2>
+			<syCloseFwdLineY1>4</syCloseFwdLineY1>
+			<syCloseFwdLineY2>-4</syCloseFwdLineY2>
+			<syCloseBackLineX1>-4</syCloseBackLineX1>
+			<syCloseBackLineX2>4</syCloseBackLineX2>
+			<syCloseBackLineY1>-4</syCloseBackLineY1>
+			<syCloseBackLineY2>4</syCloseBackLineY2>
+			<syCloseLineStyle>stroke:rgb(127,127,127) stroke-width:1</syCloseLineStyle>
+		</closeSymbol>
+		<maximizeSymbol>
+			<syMaxRectX>-6</syMaxRectX>
+			<syMaxRectY>-6</syMaxRectY>
+			<syMaxRectWidth>12</syMaxRectWidth>
+			<syMaxRectHeight>12</syMaxRectHeight>
+			<syMaxRectStyle>fill:none stroke:rgb(127,127,127) stroke-width:1</syMaxRectStyle>
+			<syMaxLineX1>6</syMaxLineX1>
+			<syMaxLineX2>-6</syMaxLineX2>
+			<syMaxLineY1>-6</syMaxLineY1>
+			<syMaxLineY2>-6</syMaxLineY2>
+			<syMaxLineStyle>stroke:rgb(127,127,127) stroke-width:2</syMaxLineStyle>
+		</maximizeSymbol>
+		<minimizeSymbol>
+			<syMinRectX>-6</syMinRectX>
+			<syMinRectY>-6</syMinRectY>
+			<syMinRectWidth>12</syMinRectWidth>
+			<syMinRectHeight>12</syMinRectHeight>
+			<syMinRectStyle>fill:none</syMinRectStyle>
+			<syMinLineX1>6</syMinLineX1>
+			<syMinLineX2>-6</syMinLineX2>
+			<syMinLineY1>6</syMinLineY1>
+			<syMinLineY2>6</syMinLineY2>
+			<syMinLineStyle>stroke:rgb(127,127,127) stroke-width:2</syMinLineStyle>
+		</minimizeSymbol>
+		<linkSymbol>
+			<syLinkCircle1X>-6</syLinkCircle1X>
+			<syLinkCircle1Y>0</syLinkCircle1Y>
+			<syLinkCircle2X>0</syLinkCircle2X>
+			<syLinkCircle2Y>0</syLinkCircle2Y>
+			<syLinkCircleRadius>6</syLinkCircleRadius>
+			<syLinkCircleStyle>fill:none stroke:rgb(127,127,127) stroke-width:1</syLinkCircleStyle>
+		</linkSymbol>
+		<minIcon>
+			<cnMinIconX>10</cnMinIconX>
+			<cnMinIconY>100</cnMinIconY>
+			<cnMinIconWidth>60</cnMinIconWidth>
+			<cnMinIconHeight>30</cnMinIconHeight>
+			<cnMinIconCorner>5</cnMinIconCorner>
+			<cnMinIconOffset>40</cnMinIconOffset>
+			<cnMinIconLeftMargin>5</cnMinIconLeftMargin>
+			<cnMinIconBottomMargin>20</cnMinIconBottomMargin>
+			<cnMinIconBar>fill:rgb(255,192,203) stroke:rgb(127,127,127) stroke-width:1</cnMinIconBar>
+			<cnMinIconText>font-family:Arial,Helvetica font-size:12px fill:rgb(127,127,127)</cnMinIconText>
+		</minIcon>
+	</container>
+	<slider>
+		<sdAreaStyle>fill:rgb(255,192,203) stroke:rgb(127,127,127) stroke-width:1</sdAreaStyle>
+		<sdLineStyle>stroke:rgb(127,127,127) stroke-width:3</sdLineStyle>
+		<sdSymbolSize>8</sdSymbolSize>
+		<sdSymbolStyle>fill:rgb(127,127,127) stroke:rgb(127,127,127) stroke-width:1</sdSymbolStyle>
+		<sdBorderStyle>fill:rgb(255,192,203) stroke:rgb(127,127,127) stroke-width:1</sdBorderStyle>
+		<sdBorderSpacing>3</sdBorderSpacing>
+	</slider>
+	<textLabel>
+		<taTextSize>12</taTextSize>
+		<taLineSpacing>4</taLineSpacing>
+		<taTextStyles>font-family:Arial,Helvetica font-size:12px fill:rgb(127,127,127)</taTextStyles>
+	</textLabel>
+	<textBox>
+		<tbBoxHeight>20</tbBoxHeight>
+		<tbTextSize>12</tbTextSize>
+		<tbBoxTextPadding>3</tbBoxTextPadding>
+		<tbBoxStyles>fill:rgb(0,0,255) opacity:0.5</tbBoxStyles>
+		<tbTextStyles>font-family:Arial,Helvetica font-size:12px fill:rgb(127,127,127)</tbTextStyles>
+		<tbTextBoxStyle>fill:rgb(255,255,255) stroke:rgb(127,127,127) stroke-width:1.5</tbTextBoxStyle>
+		<tbCursorStyle>stroke:rgb(0,0,0) stroke-width:1.5</tbCursorStyle>
+		<tbLabelCharWidth>8</tbLabelCharWidth>
+	</textBox>
+	<button>
+		<bnTextStyles>font-family:Arial,Helvetica font-size:12px fill:rgb(127,127,127)</bnTextStyles>
+		<bnTextSize>12</bnTextSize>
+		<bnButtonCorner>4</bnButtonCorner>
+		<bnShadowOffset>1</bnShadowOffset>
+		<bnButtonStyles>fill:rgb(211,211,211)</bnButtonStyles>
+		<bnShadeLightStyles>fill:rgb(255,255,255)</bnShadeLightStyles>
+		<bnShadeDarkStyles>fill:rgb(127,127,127)</bnShadeDarkStyles>
+	</button>
+	<selectionList>
+		<slBoxHeight>20</slBoxHeight>
+		<slTextSize>12</slTextSize>
+		<slBoxTextPadding>3</slBoxTextPadding>
+		<slBoxTextStyles>font-family:Arial,Helvetica font-size:12px fill:rgb(127,127,127)</slBoxTextStyles>
+		<slBoxStyles>stroke:rgb(127,127,127) stroke-width:1 fill:rgb(255,255,255)</slBoxStyles>
+		<slBoxScrollBarStyles>stroke:rgb(127,127,127) stroke-width:1 fill:whitesmoke</slBoxScrollBarStyles>
+		<slBoxSmallRectStyles>stroke:rgb(127,127,127) stroke-width:1 fill:rgb(211,211,211)</slBoxSmallRectStyles>
+		<slBoxHighlightStyles>fill:rgb(211,211,211)</slBoxHighlightStyles>
+		<slBoxTriangleStyles>fill:rgb(127,127,127)</slBoxTriangleStyles>
+	</selectionList>
+	<grid>
+		<gdGridBorderStyle>stroke:rgb(127,127,127) stroke-width:1 fill:none</gdGridBorderStyle>
+		<gdTitleBoxStyle>stroke:rgb(211,211,211) stroke-width:1 fill:rgb(255,192,203)</gdTitleBoxStyle>
+		<gdTitleTextStyle>font-family:Arial,Helvetica font-size:12px font-weight:normal fill:rgb(127,127,127)</gdTitleTextStyle>
+		<gdCellBoxStyle>stroke:rgb(211,211,211) stroke-width:1 fill:rgb(255,228,196)</gdCellBoxStyle>
+		<gdCellTextStyle>font-family:Arial,Helvetica font-size:12px fill:rgb(127,127,127)</gdCellTextStyle>
+		<gdRowSelect>rgb(173,216,230)</gdRowSelect>
+		<gdRowHighlight>rgb(152,251,152)</gdRowHighlight>
+		<gdRowUnHighlight>rgb(255,228,196)</gdRowUnHighlight>
+		<gdCellTextPadding>3</gdCellTextPadding>
+		<gdCellHeight>30</gdCellHeight>
+		<gdSliderOffset>8</gdSliderOffset>
+	</grid>
+	<form>
+		<fmMaxFormWidth>0.8</fmMaxFormWidth>
+		<fmFieldOffsetX>20</fmFieldOffsetX>
+		<fmFieldOffsetY>25</fmFieldOffsetY>
+		<fmFieldSpacingY>15</fmFieldSpacingY>
+		<fmVisibleListItems>5</fmVisibleListItems>
+		<fmButtonWidth>70</fmButtonWidth>
+		<fmButtonHeight>28</fmButtonHeight>
+		<fmButtonSpacing>15</fmButtonSpacing>
+	</form>
+	<menu>
+		<muMenuRectOffsetX>0</muMenuRectOffsetX>
+		<muMenuRectOffsetY>0</muMenuRectOffsetY>
+		<muMenuRectWidth>120</muMenuRectWidth>
+		<muMenuRectHeight>25</muMenuRectHeight>
+		<muMenuRectStyle>stroke:rgb(127,127,127) stroke-width:1 fill:rgb(255,192,203)</muMenuRectStyle>
+		<muMenuTextOffsetX>4</muMenuTextOffsetX>
+		<muMenuTextOffsetY>18</muMenuTextOffsetY>
+		<muMenuTextStyle>font-family:Arial,Helvetica font-size:12px font-weight:normal fill:rgb(127,127,127)</muMenuTextStyle>
+		<muOptionRectOffsetX>5</muOptionRectOffsetX>
+		<muOptionRectWidth>115</muOptionRectWidth>
+		<muOptionRectHeight>20</muOptionRectHeight>
+		<muOptionRectStyle>stroke:rgb(127,127,127) stroke-width:1 fill:rgb(152,251,152)</muOptionRectStyle>
+		<muOptionTextOffsetX>4</muOptionTextOffsetX>
+		<muOptionTextOffsetY>16</muOptionTextOffsetY>
+		<muOptionTextStyle>font-family:Arial,Helvetica font-size:12px font-weight:normal fill:rgb(127,127,127)</muOptionTextStyle>
+	</menu>
+</styles>

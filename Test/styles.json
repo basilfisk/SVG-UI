@@ -1,0 +1,217 @@
+{
+	"frame" : {
+		"background" : {
+			"fmBackRectX" : "0",
+			"fmBackRectY" : "0",
+			"fmBackRectWidth" : "0",
+			"fmBackRectHeight" : "0",
+			"fmBackRectStyle" : "fill:rgb(173,216,230); stroke:black; stroke-width:1"
+		},
+		"status" : {
+			"fmStatusRectX" : "910",
+			"fmStatusRectY" : "10",
+			"fmStatusRectWidth" : "100",
+			"fmStatusRectHeight" : "30",
+			"fmStatusRectHide" : "fill:none; stroke:none; stroke-width:1",
+			"fmStatusRectRunning" : "fill:yellow; stroke:dimgray; stroke-width:1",
+			"fmStatusRectShow" : "fill:yellow; stroke:dimgray; stroke-width:1",
+			"fmStatusTextX" : "915",
+			"fmStatusTextY" : "30",
+			"fmStatusTextHide" : "font-family:Arial,Helvetica; font-size:12px; font-weight:normal; fill:none",
+			"fmStatusTextRunning" : "font-family:Arial,Helvetica; font-size:12px; font-weight:normal; fill:dimgray",
+			"fmStatusTextShow" : "font-family:Arial,Helvetica; font-size:12px; font-weight:normal; fill:dimgray"
+		}
+	},
+	"container" : {
+		"background" : {
+			"cnBackground" : "fill:rgb(176,196,222); stroke:rgb(127,127,127); stroke-width:1",
+			"cnCorner" : "3"
+		},
+		"titleBar" : {
+			"cnTitleBar" : "fill:rgb(255,192,203); stroke:rgb(127,127,127); stroke-width:1",
+			"cnTitleText" : "font-family:Arial,Helvetica; font-size:12px; font-weight:bold; fill:rgb(84,84,84)",
+			"cnTitleBarHeight" : "22",
+			"cnTitleBarLeftMargin" : "5",
+			"cnTitleBarRightMargin" : "14",
+			"cnTitleBarBottomMargin" : "6",
+			"cnTitleBarButtonWidth" : "12",
+			"cnTitleBarButtonSpacing" : "18"
+		},
+		"statusBar" : {
+			"cnStatusBar" : "fill:rgb(240,248,255); stroke:rgb(127,127,127); stroke-width:1",
+			"cnStatusText" : "font-family:Arial,Helvetica; font-size:12px; fill:rgb(84,84,84)",
+			"cnStatusBarHeight" : "22",
+			"cnStatusBarLeftMargin" : "5",
+			"cnStatusBarBottomMargin" : "6"
+		}
+	},
+	"symbols" : {
+		"close" : {
+			"syCloseRectX" : "-6",
+			"syCloseRectY" : "-6",
+			"syCloseRectWidth" : "12",
+			"syCloseRectHeight" : "12",
+			"syCloseRectStyle" : "fill:none; stroke:rgb(127,127,127); stroke-width:1",
+			"syCloseFwdLineX1" : "-4",
+			"syCloseFwdLineX2" : "4",
+			"syCloseFwdLineY1" : "4",
+			"syCloseFwdLineY2" : "-4",
+			"syCloseBackLineX1" : "-4",
+			"syCloseBackLineX2" : "4",
+			"syCloseBackLineY1" : "-4",
+			"syCloseBackLineY2" : "4",
+			"syCloseLineStyle" : "stroke:rgb(127,127,127); stroke-width:1"
+		},
+		"maximise" : {
+			"syMaxRectX" : "-6",
+			"syMaxRectY" : "-6",
+			"syMaxRectWidth" : "12",
+			"syMaxRectHeight" : "12",
+			"syMaxRectStyle" : "fill:none; stroke:rgb(127,127,127); stroke-width:1",
+			"syMaxLineX1" : "6",
+			"syMaxLineX2" : "-6",
+			"syMaxLineY1" : "-6",
+			"syMaxLineY2" : "-6",
+			"syMaxLineStyle" : "stroke:rgb(127,127,127); stroke-width:2"
+		},
+		"minimise" : {
+			"syMinRectX" : "-6",
+			"syMinRectY" : "-6",
+			"syMinRectWidth" : "12",
+			"syMinRectHeight" : "12",
+			"syMinRectStyle" : "fill:none",
+			"syMinLineX1" : "6",
+			"syMinLineX2" : "-6",
+			"syMinLineY1" : "6",
+			"syMinLineY2" : "6",
+			"syMinLineStyle" : "stroke:rgb(127,127,127); stroke-width:2"
+		},
+		"link" : {
+			"syLinkCircle1X" : "-6",
+			"syLinkCircle1Y" : "0",
+			"syLinkCircle2X" : "0",
+			"syLinkCircle2Y" : "0",
+			"syLinkCircleRadius" : "6",
+			"syLinkCircleStyle" : "fill:none; stroke:rgb(127,127,127); stroke-width:1"
+		}
+	},
+	"icons" : {
+		"minimise" : {
+			"cnMinIconX" : "10",
+			"cnMinIconY" : "100",
+			"cnMinIconWidth" : "60",
+			"cnMinIconHeight" : "30",
+			"cnMinIconCorner" : "5",
+			"cnMinIconOffset" : "40",
+			"cnMinIconLeftMargin" : "5",
+			"cnMinIconBottomMargin" : "20",
+			"cnMinIconBar" : "fill:rgb(255,192,203); stroke:rgb(127,127,127); stroke-width:1",
+			"cnMinIconText" : "font-family:Arial,Helvetica; font-size:12px; fill:rgb(127,127,127)",
+			"sdAreaStyle" : "fill:rgb(255,192,203); stroke:rgb(127,127,127); stroke-width:1"
+		}
+	},
+	"slider" : {
+		"sdLineStyle" : "stroke:rgb(127,127,127); stroke-width:3",
+		"sdSymbolSize" : "8",
+		"sdSymbolStyle" : "fill:rgb(127,127,127); stroke:rgb(127,127,127); stroke-width:1",
+		"sdBorderStyle" : "fill:rgb(255,192,203); stroke:rgb(127,127,127); stroke-width:1",
+		"sdBorderSpacing" : "3"
+	},
+	"text" : {
+		"label" : {
+			"taTextSize" : "12",
+			"taLineSpacing" : "4",
+			"taTextStyles" : "font-family:Arial,Helvetica; font-size:12px; fill:rgb(127,127,127)"
+		},
+		"box" : {
+			"tbBoxHeight" : "20",
+			"tbTextSize" : "12",
+			"tbBoxTextPadding" : "3",
+			"tbBoxStyles" : "fill:rgb(0,0,255); opacity:0.5",
+			"tbTextStyles" : "font-family:Arial,Helvetica; font-size:12px; fill:rgb(127,127,127)",
+			"tbTextBoxStyle" : "fill:rgb(255,255,255); stroke:rgb(127,127,127); stroke-width:1.5",
+			"tbCursorStyle" : "stroke:rgb(0,0,0); stroke-width:1.5",
+			"tbLabelCharWidth" : "8"
+		}
+	},
+	"button" : {
+		"bnTextStyles" : "font-family:Arial,Helvetica; font-size:12px; fill:rgb(127,127,127)",
+		"bnTextSize" : "12",
+		"bnButtonCorner" : "4",
+		"bnShadowOffset" : "1",
+		"bnButtonStyles" : "fill:rgb(211,211,211)",
+		"bnShadeLightStyles" : "fill:rgb(255,255,255)",
+		"bnShadeDarkStyles" : "fill:rgb(127,127,127)"
+	},
+	"selectionList" : {
+		"slBoxHeight" : "20",
+		"slTextSize" : "12",
+		"slBoxTextPadding" : "3",
+		"slBoxTextStyles" : "font-family:Arial,Helvetica; font-size:12px; fill:rgb(127,127,127)",
+		"slBoxStyles" : "stroke:rgb(127,127,127); stroke-width:1; fill:rgb(255,255,255)",
+		"slBoxScrollBarStyles" : "stroke:rgb(127,127,127); stroke-width:1; fill:whitesmoke",
+		"slBoxSmallRectStyles" : "stroke:rgb(127,127,127); stroke-width:1; fill:rgb(211,211,211)",
+		"slBoxHighlightStyles" : "fill:rgb(211,211,211)",
+		"slBoxTriangleStyles" : "fill:rgb(127,127,127)"
+	},
+	"grid" : {
+		"gdGridBorderStyle" : "stroke:rgb(127,127,127); stroke-width:1; fill:none",
+		"gdSliderOffset" : "8",
+		"title" : {
+			"gdTitleBoxStyle" : "stroke:rgb(211,211,211); stroke-width:1; fill:rgb(255,192,203)",
+			"gdTitleTextStyle" : "font-family:Arial,Helvetica; font-size:12px; font-weight:normal; fill:rgb(127,127,127)"
+		},
+		"row" : {
+			"gdRowSelect" : "rgb(173,216,230)",
+			"gdRowHighlight" : "rgb(152,251,152)",
+			"gdRowUnHighlight" : "rgb(255,228,196)"
+		},
+		"cell" : {
+			"gdCellBoxStyle" : "stroke:rgb(211,211,211); stroke-width:1; fill:rgb(255,228,196)",
+			"gdCellTextStyle" : "font-family:Arial,Helvetica; font-size:12px; fill:rgb(127,127,127)",
+			"gdCellTextPadding" : "3",
+			"gdCellHeight" : "30"
+		}
+	},
+	"form" : {
+		"fmMaxFormWidth" : "0.8",
+		"fmVisibleListItems" : "5",
+		"field" : {
+			"fmFieldOffsetX" : "20",
+			"fmFieldOffsetY" : "25",
+			"fmFieldSpacingY" : "15"
+		},
+		"button" : {
+			"fmButtonWidth" : "70",
+			"fmButtonHeight" : "28",
+			"fmButtonSpacing" : "15"
+		}
+	},
+	"menu" : {
+		"rectangle" : {
+			"muMenuRectOffsetX" : "0",
+			"muMenuRectOffsetY" : "0",
+			"muMenuRectWidth" : "120",
+			"muMenuRectHeight" : "25",
+			"muMenuRectStyle" : "stroke:rgb(127,127,127); stroke-width:1; fill:rgb(255,192,203)"
+		},
+		"text" : {
+			"muMenuTextOffsetX" : "4",
+			"muMenuTextOffsetY" : "18",
+			"muMenuTextStyle" : "font-family:Arial,Helvetica; font-size:12px; font-weight:normal; fill:rgb(127,127,127)"
+		}
+	},
+	"option" : {
+		"rectangle" : {
+			"muOptionRectOffsetX" : "5",
+			"muOptionRectWidth" : "115",
+			"muOptionRectHeight" : "20",
+			"muOptionRectStyle" : "stroke:rgb(127,127,127); stroke-width:1; fill:rgb(152,251,152)"
+		},
+		"text" : {
+			"muOptionTextOffsetX" : "4",
+			"muOptionTextOffsetY" : "16",
+			"muOptionTextStyle" : "font-family:Arial,Helvetica; font-size:12px; font-weight:normal; fill:rgb(127,127,127)"
+		}
+	}
+}

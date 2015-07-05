@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg [<!ELEMENT g EMPTY><!ATTLIST g id ID #REQUIRED>]>
+<!--
+	Files in the UI directory are standard JS objects that manage the display of individual types of UI control.
+	admin.js holds the code that builds and controls the Admin UI.
+-->
+<svg width="100%" height="100%" viewBox="0 0 1024 768" version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" onload="initialise()">
+	<script type="text/ecmascript" xlink:href="UI/vs.js"/>
+	<script type="text/ecmascript" xlink:href="admin.js"/>
+</svg>
+
