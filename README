@@ -8,6 +8,10 @@ USAGE
 	- Create a function for each postProcess referenced in the form definition file
 	- Load the application
 		xxx = vs.window({ definitions:'data/forms.json', stylesheet:'data/styles.json', data: serverStatus });
+- Start the data server
+	node ~/Drive/Software/UI/Admin/server.js &
+- Run the application from the browser
+	http://localhost/admin.svg
 
 
 
@@ -54,7 +58,7 @@ vs.textBox
 	- If validation is done in-line, is that.changed needed?
 	- Enter does not set that.changed so does not save data in loseFocus
 	- Enter should move to next field
-	
+
 vs.window
 	- vs.window.addSymbols: These default defs should be loaded from a JSON file
 	- vs.window.formDefinitions: Lists must be set up, if not, issue warning
@@ -240,5 +244,3 @@ document.documentElement
 						rect																			Background
 						line																			Slider line
 						rect																			Slider bar
-
-

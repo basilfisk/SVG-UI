@@ -14,34 +14,27 @@
 #fi
 
 # Location of files
-SOURCE=~/Dropbox/Git/VS-UI
+SOURCE=~/Drive/Software/UI
 TARGET=/var/www/admin/UI
 
 # Owner and group
-OWNER=bf
-GROUP=bf
+OWNER='bf:bf'
 
 # UI directory
 if [ ! -d $TARGET ]; then
 	echo "Creating directory for UI files [$TARGET]"
 	mkdir -p $TARGET
-	chown $OWNER:$GROUP $TARGET
+	chown $OWNER $TARGET
 	chmod 755 $TARGET
 fi
 
 # UI library files
-#echo "Releasing the Breato UI application to [$TARGET]"
-#cp $SOURCE/ui*.js $TARGET
-#chown $OWNER:$GROUP $TARGET/ui*.js
-#chmod 644 $TARGET/ui*.js
-
-# UI library files
 echo "Releasing the VisualSaaS UI application to [$TARGET]"
 cp $SOURCE/vs.js $TARGET
-chown $OWNER:$GROUP $TARGET/vs.js
+chown $OWNER $TARGET/vs.js
 chmod 644 $TARGET/vs.js
 
 # Ajax interface
 #cp $SOURCE/Ajax.js $TARGET
-#chown $OWNER:$GROUP $TARGET/Ajax.js
+#chown $OWNER $TARGET/Ajax.js
 #chmod 644 $TARGET/Ajax.js
