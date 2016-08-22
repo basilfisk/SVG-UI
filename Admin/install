@@ -1,7 +1,7 @@
 #!/bin/bash
 # *********************************************************************************************
 # *********************************************************************************************
-# 
+#
 # Install the Administration client
 #
 # *********************************************************************************************
@@ -14,15 +14,13 @@
 #fi
 
 # Root of source directory
-SOURCE=~/Dropbox/Git/VS-UI/Test
+SOURCE=~/Drive/Software/UI/Admin
 TARGET=/var/www/admin
 DATA=/var/www/admin/data
 
 # Owner and group
 OWNER=bf
 GROUP=bf
-
-
 
 # UI directory
 if [ ! -d $TARGET ]; then
@@ -48,9 +46,9 @@ chmod 644 $TARGET/*.svg
 
 # Data files
 echo "Installing data files in [$DATA]"
-cp $SOURCE/status.json $DATA
-cp $SOURCE/structure.json $DATA
-cp $SOURCE/styles.json $DATA
+test ! -d $DATA && mkdir -p $DATA
+cp $SOURCE/data/status.json $DATA
+cp $SOURCE/data/structure.json $DATA
+cp $SOURCE/data/styles.json $DATA
 chown $OWNER:$GROUP $DATA/*.json
 chmod 644 $DATA/*.json
-
